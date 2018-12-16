@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# TODO why does c_void_p come back as Python int? How to access contents of underyling object?
 import ctypes
 import json
 import platform
