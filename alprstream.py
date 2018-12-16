@@ -35,13 +35,11 @@ def _convert_from_charp(charp):
 
 class AlprStreamRecognizedFrameC(ctypes.Structure):
     _fields_ = [("image_available",     ctypes.c_bool),
-                ("jpeg_bytes",          ctypes.c_void_p),
+                ("jpeg_bytes",          ctypes.c_char_p),
                 ("jpeg_bytes_size",     ctypes.c_longlong),
                 ("frame_epoch_time_ms", ctypes.c_longlong),
                 ("frame_number",        ctypes.c_longlong),
-                ("results_str",         ctypes.c_char_p)
-               ]
-
+                ("results_str",         ctypes.c_char_p)]
 
 class AlprStream:
     def __init__(self, frame_queue_size, use_motion_detection=1):
@@ -60,7 +58,7 @@ class AlprStream:
             elif platform.system().lower().find("darwin") != -1:
                 self._alprstreampy_lib = ctypes.cdll.LoadLibrary("libalprstream.dylib")
             else:
-                self._alprstreampy_lib = ctypes.cdll.LoadLibrary("/storage/projects/alpr/modules/alprstream/build/libalprstream.so")
+                self._alprstreampy_lib = ctypes.cdll.LoadLibrary("libalprstream.so")
         except OSError as e:
             nex = OSError("Unable to locate the ALPRStream library. Please make sure that ALPRStream is properly "
                           "installed on your system and that the libraries are in the appropriate paths.")
@@ -119,7 +117,7 @@ class AlprStream:
         self._push_frame_func.argtypes = [ctypes.c_void_p, ctypes.c_char_p, ctypes.c_uint, ctypes.c_uint, ctypes.c_uint, ctypes.c_uint]
 
         self._process_batch_func = self._alprstreampy_lib.alprstream_process_batch
-        self._process_batch_func.restype = ctypes.c_void_p
+        self._process_batch_func.restype = ctypes.POINTER(AlprStreamRecognizedFrameC)
         self._process_batch_func.argtypes = [ctypes.c_void_p, ctypes.c_void_p]
 
         self._free_batch_response_func = self._alprstreampy_lib.alprstream_free_batch_response
@@ -317,11 +315,10 @@ class AlprStream:
 
     def process_frame(self, alpr_instance):
 
-        struct_response = self._process_batch_func(self.alprstream_pointer, alpr_instance.alpr_pointer)
+        struct_response = self._process_frame_func(self.alprstream_pointer, alpr_instance.alpr_pointer)
         copy_val = ctypes.cast(struct_response, ctypes.POINTER(AlprStreamRecognizedFrameC))
         self._free_frame_response_func(ctypes.c_void_p(struct_response))
         return copy_val
-
 
     def process_batch(self, alpr_instance):
         """
@@ -334,8 +331,9 @@ class AlprStream:
         :return: An array of the results for all recognized frames that were processed
         """
         struct_response = self._process_batch_func(self.alprstream_pointer, alpr_instance.alpr_pointer)
-        copy_val = ""
-        self._free_batch_response_func(ctypes.c_void_p(struct_response))
+        print('Python JSON: ', struct_response.contents.results_str)
+        copy_val = ctypes.cast(struct_response, ctypes.POINTER(AlprStreamRecognizedFrameC))
+        self._free_batch_response_func(struct_response)
         return copy_val
 
     def __del__(self):
