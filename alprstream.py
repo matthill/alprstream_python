@@ -61,7 +61,7 @@ class AlprStream:
             elif platform.system().lower().find("darwin") != -1:
                 self._alprstreampy_lib = ctypes.cdll.LoadLibrary("libalprstream.dylib")
             else:
-                self._alprstreampy_lib = ctypes.cdll.LoadLibrary("libalprstream.so")
+                self._alprstreampy_lib = ctypes.cdll.LoadLibrary("libalprstream.so.3")
         except OSError as e:
             nex = OSError("Unable to locate the ALPRStream library. Please make sure that ALPRStream is properly "
                           "installed on your system and that the libraries are in the appropriate paths.")
