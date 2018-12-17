@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# TODO why does c_void_p come back as Python int? How to access contents of underyling object?
 import ctypes
 import json
 import platform
@@ -18,14 +17,12 @@ else:
     unicode = str
     _PYTHON_3 = True
 
-
 def _convert_to_charp(string):
     # Prepares function input for use in c-functions as char*
     if type(string) == unicode:
         return string.encode("UTF-8")
     elif type(string) == bytes:
         return string
-
 
 def _convert_from_charp(charp):
     # Prepares char* output from c-functions into Python strings
@@ -41,6 +38,11 @@ class AlprStreamRecognizedFrameC(ctypes.Structure):
                 ("frame_epoch_time_ms", ctypes.c_longlong),
                 ("frame_number",        ctypes.c_longlong),
                 ("results_str",         ctypes.c_char_p)]
+
+class AlprStreamRecognizedBatchC(ctypes.Structure):
+    _fields_ = [('results_size',  ctypes.c_int),
+                ('results_array', ctypes.c_void_p),
+                ('batch_results', ctypes.c_char_p)]
 
 class AlprStream:
     def __init__(self, frame_queue_size, use_motion_detection=1):
@@ -118,12 +120,12 @@ class AlprStream:
         self._push_frame_func.argtypes = [ctypes.c_void_p, ctypes.c_char_p, ctypes.c_uint, ctypes.c_uint, ctypes.c_uint, ctypes.c_uint]
 
         self._process_batch_func = self._alprstreampy_lib.alprstream_process_batch
-        self._process_batch_func.restype = ctypes.POINTER(AlprStreamRecognizedFrameC)
+        self._process_batch_func.restype = ctypes.POINTER(AlprStreamRecognizedBatchC)
         self._process_batch_func.argtypes = [ctypes.c_void_p, ctypes.c_void_p]
 
         self._free_batch_response_func = self._alprstreampy_lib.alprstream_free_batch_response
         self._free_batch_response_func.restype = ctypes.c_void_p
-        self._free_batch_response_func.argtypes = [ctypes.c_void_p]
+        self._free_batch_response_func.argtypes = [ctypes.POINTER(AlprStreamRecognizedBatchC)]
 
         self._pop_completed_groups_func = self._alprstreampy_lib.alprstream_pop_completed_groups
         self._pop_completed_groups_func.restype = ctypes.c_void_p
@@ -333,10 +335,10 @@ class AlprStream:
         :return: An array of the results for all recognized frames that were processed
         """
         struct_response = self._process_batch_func(self.alprstream_pointer, alpr_instance.alpr_pointer)
-        print('Python JSON: ', struct_response.contents.results_str)
-        copy_val = ctypes.cast(struct_response, ctypes.POINTER(AlprStreamRecognizedFrameC))
+        bytes = struct_response.contents.batch_results
+        results = json.loads(bytes.decode('utf-8'))
         self._free_batch_response_func(struct_response)
-        return copy_val
+        return results
 
     def __del__(self):
         if self.is_loaded:
