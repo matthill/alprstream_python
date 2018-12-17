@@ -12,9 +12,9 @@ typedef struct
     int64_t frame_epoch_time_ms;
     int64_t frame_number;
     char* results; // techincally type AlprResults and converted to JSON
-} RecognizedFrame;
+} RF;
 
-typedef struct 
+typedef struct
 {
     bool image_available;
     char* jpeg_bytes;
@@ -22,9 +22,22 @@ typedef struct
     int64_t frame_epoch_time_ms;
     int64_t frame_number;
     char* results_str;
-} TestStruct;
+} AlprStreamRF;
 
 // Init functions ------------------------------------------------------------
+
+
+// Create RecognizedFrame rf (would be done by Alpr instance)
+RecognizedFrame rf =
+{
+    true,
+    false,
+    char[] { 0x00, 0x11, 0x22 },
+    int64_t 1234,
+    int64_t 0,
+    char[] {}
+}
+
 
 /*
 AlprStreamRecognizedFrame* make_responsestruct(RecognizedFrame& rf) 
@@ -33,10 +46,6 @@ AlprStreamRecognizedFrame* make_responsestruct(RecognizedFrame& rf)
 };
 */
 
-// Create RecognizedFrame rf (would be done by Alpr instance)
-
-// RecognizedFrame rf = {true, false, char[] { 0x00, 0x11, 0x22 }, int64_t 1234, int64_t 0, char[] }
- 
 // Transform rf into AlprStreamRecognizedFrame asrf
 // Return asrf from process_frame()
 

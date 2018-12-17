@@ -102,11 +102,11 @@ class AlprStream:
         self._video_file_active_func.argtypes = [ctypes.c_void_p]
 
         self._process_frame_func = self._alprstreampy_lib.alprstream_process_frame
-        self._process_frame_func.restype = ctypes.c_void_p
+        self._process_frame_func.restype = ctypes.POINTER(AlprStreamRecognizedFrameC)
         self._process_frame_func.argtypes = [ctypes.c_void_p, ctypes.c_void_p]
 
         self._free_frame_response_func = self._alprstreampy_lib.alprstream_free_frame_response
-        self._free_frame_response_func.restype = ctypes.c_void_p
+        self._free_frame_response_func.restype = ctypes.POINTER(AlprStreamRecognizedFrameC)
         self._free_frame_response_func.argtypes = [ctypes.c_void_p]
 
         self._push_frame_encoded_func = self._alprstreampy_lib.alprstream_push_frame
@@ -317,9 +317,10 @@ class AlprStream:
     def process_frame(self, alpr_instance):
 
         struct_response = self._process_frame_func(self.alprstream_pointer, alpr_instance.alpr_pointer)
-        copy_val = ctypes.cast(struct_response, ctypes.POINTER(AlprStreamRecognizedFrameC))
-        self._free_frame_response_func(ctypes.c_void_p(struct_response))
-        return copy_val
+        print('Python JSON: ', struct_response.contents.results_str)
+        json = struct_response.contents.results_str
+        self._free_frame_response_func(struct_response)
+        return json
 
     def process_batch(self, alpr_instance):
         """
