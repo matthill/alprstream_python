@@ -317,10 +317,10 @@ class AlprStream:
     def process_frame(self, alpr_instance):
 
         struct_response = self._process_frame_func(self.alprstream_pointer, alpr_instance.alpr_pointer)
-        print('Python JSON: ', struct_response.contents.results_str)
-        json = struct_response.contents.results_str
+        bytes = struct_response.contents.results_str
+        results = json.loads(bytes.decode('utf-8'))
         self._free_frame_response_func(struct_response)
-        return json
+        return results
 
     def process_batch(self, alpr_instance):
         """
