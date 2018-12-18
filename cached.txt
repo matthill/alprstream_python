@@ -1,0 +1,1065 @@
+Pointer to stream instance:  0x5639801c5bd0
+Results will load below when plates are detected...
+
+ACTIVE GROUP 1/1 (1467 - 1934) ================================================
+	Best Plate: SPW132 (86.91)
+	Best Region: us-mo (61.00)
+ACTIVE GROUP 1/1 (1467 - 2268) ================================================
+	Best Plate: 6PK132 (90.61)
+	Best Region: us-mo (62.33)
+ACTIVE GROUP 1/1 (1467 - 2368) ================================================
+	Best Plate: 6PK132 (90.61)
+	Best Region: us-mo (65.25)
+ACTIVE GROUP 1/1 (1467 - 2434) ================================================
+	Best Plate: 6PK132 (92.23)
+	Best Region: us-mo (68.60)
+ACTIVE GROUP 1/1 (1467 - 2468) ================================================
+	Best Plate: 6PK132 (92.23)
+	Best Region: us-mo (73.33)
+COMPLETED GROUP (1467 - 2468) /////////////////////////////////////////////////
+	Best Plate: 6PK132 (92.23)
+	Best Region: us-mo (73.33)
+ACTIVE GROUP 1/1 (4302 - 5270) ================================================
+	Best Plate: AE1T3F (93.51)
+	Best Region: us-mo (99.00)
+ACTIVE GROUP 1/1 (4302 - 5303) ================================================
+	Best Plate: AE1T3F (93.51)
+	Best Region: us-mo (96.50)
+ACTIVE GROUP 1/1 (4302 - 5336) ================================================
+	Best Plate: AE1T3E (93.61)
+	Best Region: us-mo (97.00)
+ACTIVE GROUP 1/1 (4302 - 5370) ================================================
+	Best Plate: AE1T3E (93.61)
+	Best Region: us-mo (97.50)
+ACTIVE GROUP 1/1 (4302 - 5403) ================================================
+	Best Plate: AE1T3E (93.61)
+	Best Region: us-mo (90.40)
+ACTIVE GROUP 1/1 (4302 - 5436) ================================================
+	Best Plate: AE1T3E (93.61)
+	Best Region: us-mo (91.50)
+ACTIVE GROUP 1/1 (4302 - 5470) ================================================
+	Best Plate: AE1T3E (93.72)
+	Best Region: us-mo (91.57)
+ACTIVE GROUP 1/1 (4302 - 5503) ================================================
+	Best Plate: AE1T3E (93.72)
+	Best Region: us-mo (84.88)
+ACTIVE GROUP 1/1 (4302 - 5536) ================================================
+	Best Plate: AE1T3E (93.72)
+	Best Region: us-mo (85.78)
+ACTIVE GROUP 1/1 (4302 - 5570) ================================================
+	Best Plate: AE1T3E (93.73)
+	Best Region: us-mo (86.80)
+ACTIVE GROUP 1/1 (4302 - 5603) ================================================
+	Best Plate: AE1T3E (93.73)
+	Best Region: us-mo (86.91)
+ACTIVE GROUP 1/1 (4302 - 5636) ================================================
+	Best Plate: AE1T3E (93.73)
+	Best Region: us-mo (87.75)
+ACTIVE GROUP 1/1 (4302 - 5670) ================================================
+	Best Plate: AE1T3E (93.73)
+	Best Region: us-mo (88.23)
+ACTIVE GROUP 1/1 (4302 - 5703) ================================================
+	Best Plate: AE1T3E (93.73)
+	Best Region: us-mo (88.79)
+ACTIVE GROUP 1/1 (4302 - 5737) ================================================
+	Best Plate: AE1T3E (93.77)
+	Best Region: us-mo (88.00)
+ACTIVE GROUP 1/1 (4302 - 5770) ================================================
+	Best Plate: AE1T3E (93.77)
+	Best Region: us-mo (88.12)
+ACTIVE GROUP 1/1 (4302 - 5803) ================================================
+	Best Plate: AE1T3E (93.77)
+	Best Region: us-mo (88.65)
+ACTIVE GROUP 1/1 (4302 - 5837) ================================================
+	Best Plate: AE1T3E (93.77)
+	Best Region: us-mo (89.22)
+ACTIVE GROUP 1/1 (4302 - 5870) ================================================
+	Best Plate: AE1T3E (93.77)
+	Best Region: us-mo (89.68)
+ACTIVE GROUP 1/1 (4302 - 5903) ================================================
+	Best Plate: AE1T3E (93.77)
+	Best Region: us-mo (90.15)
+ACTIVE GROUP 1/1 (4302 - 5937) ================================================
+	Best Plate: AE1T3E (93.80)
+	Best Region: us-mo (90.43)
+ACTIVE GROUP 1/1 (4302 - 5970) ================================================
+	Best Plate: AE1T3E (93.80)
+	Best Region: us-mo (90.82)
+ACTIVE GROUP 1/1 (4302 - 6003) ================================================
+	Best Plate: AE1T3E (93.80)
+	Best Region: us-mo (89.91)
+ACTIVE GROUP 1/1 (4302 - 6037) ================================================
+	Best Plate: AE1T3E (93.80)
+	Best Region: us-mo (90.25)
+ACTIVE GROUP 1/1 (4302 - 6070) ================================================
+	Best Plate: AE1T3E (93.80)
+	Best Region: us-mo (90.56)
+ACTIVE GROUP 1/1 (4302 - 6103) ================================================
+	Best Plate: AE1T3E (93.80)
+	Best Region: us-mo (90.88)
+ACTIVE GROUP 1/1 (4302 - 6137) ================================================
+	Best Plate: AE1T3E (93.82)
+	Best Region: us-mo (91.19)
+ACTIVE GROUP 1/1 (4302 - 6170) ================================================
+	Best Plate: AE1T3E (93.82)
+	Best Region: us-mo (89.82)
+ACTIVE GROUP 2/2 (7438 - 7504) ================================================
+	Best Plate: AB3W4S (89.19)
+	Best Region: us-mo (57.00)
+ACTIVE GROUP 2/2 (7438 - 7538) ================================================
+	Best Plate: AB3W4S (92.93)
+	Best Region: us-mo (70.33)
+ACTIVE GROUP 2/2 (7438 - 7571) ================================================
+	Best Plate: AB3W4S (92.93)
+	Best Region: us-mo (77.25)
+ACTIVE GROUP 2/2 (7438 - 7704) ================================================
+	Best Plate: AB3W4S (92.93)
+	Best Region: us-mo (80.40)
+ACTIVE GROUP 2/2 (7438 - 7738) ================================================
+	Best Plate: AB3W4S (92.93)
+	Best Region: us-mo (79.17)
+ACTIVE GROUP 2/2 (7438 - 7771) ================================================
+	Best Plate: AB3W4S (93.17)
+	Best Region: us-mo (82.00)
+ACTIVE GROUP 2/2 (7438 - 7804) ================================================
+	Best Plate: AB3W4S (93.26)
+	Best Region: us-mo (84.12)
+ACTIVE GROUP 2/2 (7438 - 7838) ================================================
+	Best Plate: AB3W4S (93.42)
+	Best Region: us-mo (85.78)
+ACTIVE GROUP 2/2 (7438 - 7871) ================================================
+	Best Plate: AB3W4S (93.45)
+	Best Region: us-mo (87.10)
+ACTIVE GROUP 2/2 (7438 - 7905) ================================================
+	Best Plate: AB3W4S (93.45)
+	Best Region: us-mo (88.18)
+ACTIVE GROUP 2/2 (7438 - 7938) ================================================
+	Best Plate: AB3W4S (93.45)
+	Best Region: us-mo (89.08)
+ACTIVE GROUP 2/2 (7438 - 7971) ================================================
+	Best Plate: AB3W4S (93.45)
+	Best Region: us-mo (89.85)
+ACTIVE GROUP 2/2 (7438 - 8005) ================================================
+	Best Plate: AB3W4S (93.45)
+	Best Region: us-mo (90.50)
+ACTIVE GROUP 2/2 (7438 - 8038) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (91.07)
+ACTIVE GROUP 2/2 (7438 - 8071) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (91.56)
+ACTIVE GROUP 2/2 (7438 - 8105) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.00)
+ACTIVE GROUP 2/2 (7438 - 8138) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.39)
+ACTIVE GROUP 2/2 (7438 - 8171) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.74)
+COMPLETED GROUP (4302 - 6170) /////////////////////////////////////////////////
+	Best Plate: AE1T3E (93.82)
+	Best Region: us-mo (89.82)
+ACTIVE GROUP 1/1 (7438 - 8205) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (93.05)
+ACTIVE GROUP 1/1 (7438 - 8238) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (93.19)
+ACTIVE GROUP 1/1 (7438 - 8271) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (93.45)
+ACTIVE GROUP 1/1 (7438 - 8305) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (93.70)
+ACTIVE GROUP 1/1 (7438 - 8338) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (93.92)
+ACTIVE GROUP 1/1 (7438 - 8372) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (94.12)
+ACTIVE GROUP 1/2 (7438 - 8405) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (94.27)
+ACTIVE GROUP 2/2 (8372 - 8405) ================================================
+	Best Plate: DB3Y3W (91.21)
+	Best Region: us-mo (89.00)
+ACTIVE GROUP 1/2 (7438 - 8438) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (94.44)
+ACTIVE GROUP 1/2 (7438 - 8472) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (94.61)
+ACTIVE GROUP 1/2 (7438 - 8505) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (94.76)
+ACTIVE GROUP 1/2 (7438 - 8538) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (94.90)
+ACTIVE GROUP 2/2 (8372 - 8538) ================================================
+	Best Plate: DB3Y3W (91.21)
+	Best Region: us-mo (83.67)
+ACTIVE GROUP 2/2 (8372 - 8572) ================================================
+	Best Plate: DB3Y3W (91.80)
+	Best Region: us-mo (87.00)
+ACTIVE GROUP 1/2 (7438 - 8605) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (95.03)
+ACTIVE GROUP 2/2 (8372 - 8605) ================================================
+	Best Plate: DB3Y3W (92.74)
+	Best Region: us-mo (88.40)
+ACTIVE GROUP 1/2 (7438 - 8638) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (95.06)
+ACTIVE GROUP 2/2 (8372 - 8638) ================================================
+	Best Plate: DB3Y3W (92.74)
+	Best Region: us-mo (88.40)
+ACTIVE GROUP 1/2 (7438 - 8672) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (95.06)
+ACTIVE GROUP 2/2 (8372 - 8672) ================================================
+	Best Plate: DB3Y3W (93.25)
+	Best Region: us-mo (89.83)
+ACTIVE GROUP 2/2 (8372 - 8705) ================================================
+	Best Plate: DB3Y3W (93.25)
+	Best Region: us-mo (90.57)
+ACTIVE GROUP 2/2 (8372 - 8738) ================================================
+	Best Plate: DB3Y3W (93.26)
+	Best Region: us-mo (90.57)
+ACTIVE GROUP 2/2 (8372 - 8772) ================================================
+	Best Plate: DB3Y3W (93.40)
+	Best Region: us-mo (90.62)
+ACTIVE GROUP 2/2 (8372 - 8805) ================================================
+	Best Plate: DB3Y3W (93.40)
+	Best Region: us-mo (88.00)
+ACTIVE GROUP 2/2 (8372 - 8838) ================================================
+	Best Plate: DB3Y3W (93.40)
+	Best Region: us-mo (88.70)
+ACTIVE GROUP 2/2 (8372 - 8872) ================================================
+	Best Plate: DB3Y3W (93.40)
+	Best Region: us-mo (89.27)
+ACTIVE GROUP 2/2 (8372 - 8939) ================================================
+	Best Plate: DB3Y3W (93.40)
+	Best Region: us-mo (87.67)
+ACTIVE GROUP 2/2 (8372 - 8972) ================================================
+	Best Plate: DB3Y3W (93.40)
+	Best Region: us-mo (88.54)
+ACTIVE GROUP 2/2 (8372 - 9005) ================================================
+	Best Plate: DB3Y3W (93.40)
+	Best Region: us-mo (88.50)
+ACTIVE GROUP 2/2 (8372 - 9039) ================================================
+	Best Plate: DB3Y3W (93.40)
+	Best Region: us-mo (88.93)
+ACTIVE GROUP 2/2 (8372 - 9072) ================================================
+	Best Plate: DB3Y3W (93.40)
+	Best Region: us-mo (89.31)
+ACTIVE GROUP 1/2 (7438 - 9105) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (95.06)
+ACTIVE GROUP 2/2 (8372 - 9139) ================================================
+	Best Plate: DB3Y3W (93.46)
+	Best Region: us-mo (89.88)
+ACTIVE GROUP 2/2 (8372 - 9172) ================================================
+	Best Plate: DB3Y3W (93.46)
+	Best Region: us-mo (90.39)
+ACTIVE GROUP 2/2 (8372 - 9205) ================================================
+	Best Plate: DB3Y3W (93.46)
+	Best Region: us-mo (90.84)
+ACTIVE GROUP 2/2 (8372 - 9239) ================================================
+	Best Plate: DB3Y3W (93.46)
+	Best Region: us-mo (90.80)
+ACTIVE GROUP 2/2 (8372 - 9272) ================================================
+	Best Plate: DB3Y3W (93.46)
+	Best Region: us-mo (91.14)
+ACTIVE GROUP 2/2 (8372 - 9305) ================================================
+	Best Plate: DB3Y3W (93.46)
+	Best Region: us-mo (91.41)
+ACTIVE GROUP 2/2 (8372 - 9339) ================================================
+	Best Plate: DB3Y3W (93.46)
+	Best Region: us-mo (90.17)
+ACTIVE GROUP 2/2 (8372 - 9372) ================================================
+	Best Plate: DB3Y3W (93.46)
+	Best Region: us-mo (90.42)
+ACTIVE GROUP 2/2 (8372 - 9406) ================================================
+	Best Plate: DB3Y3W (93.46)
+	Best Region: us-mo (90.60)
+ACTIVE GROUP 2/2 (8372 - 9439) ================================================
+	Best Plate: DB3Y3W (93.46)
+	Best Region: us-mo (90.50)
+ACTIVE GROUP 2/2 (8372 - 9472) ================================================
+	Best Plate: DB3Y3W (93.46)
+	Best Region: us-mo (90.81)
+ACTIVE GROUP 1/2 (7438 - 9506) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (94.68)
+ACTIVE GROUP 2/2 (8372 - 9506) ================================================
+	Best Plate: DB3Y3W (93.46)
+	Best Region: us-mo (89.89)
+ACTIVE GROUP 1/2 (7438 - 9539) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (94.40)
+ACTIVE GROUP 2/2 (8372 - 9539) ================================================
+	Best Plate: DB3Y3W (93.51)
+	Best Region: us-mo (89.86)
+ACTIVE GROUP 1/2 (7438 - 9572) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (94.40)
+ACTIVE GROUP 2/2 (8372 - 9572) ================================================
+	Best Plate: DB3Y3W (93.51)
+	Best Region: us-mo (90.13)
+ACTIVE GROUP 1/2 (7438 - 9606) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (94.11)
+ACTIVE GROUP 2/2 (8372 - 9606) ================================================
+	Best Plate: DB3Y3W (93.51)
+	Best Region: us-mo (90.42)
+ACTIVE GROUP 1/2 (7438 - 9639) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (94.08)
+ACTIVE GROUP 1/1 (7438 - 9672) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (93.03)
+ACTIVE GROUP 1/1 (7438 - 9706) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (93.07)
+ACTIVE GROUP 1/1 (7438 - 9739) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (93.10)
+ACTIVE GROUP 1/1 (7438 - 9772) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (93.10)
+ACTIVE GROUP 1/1 (7438 - 9806) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.81)
+ACTIVE GROUP 1/1 (7438 - 9839) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.68)
+ACTIVE GROUP 1/1 (7438 - 9872) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.64)
+ACTIVE GROUP 1/1 (7438 - 9906) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.40)
+ACTIVE GROUP 1/1 (7438 - 9939) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.40)
+ACTIVE GROUP 1/1 (7438 - 9973) ================================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.50)
+ACTIVE GROUP 1/1 (7438 - 10006) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.49)
+ACTIVE GROUP 1/1 (7438 - 10039) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.54)
+ACTIVE GROUP 1/1 (7438 - 10073) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.54)
+ACTIVE GROUP 1/1 (7438 - 10106) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.54)
+ACTIVE GROUP 1/1 (7438 - 10139) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.63)
+ACTIVE GROUP 1/1 (7438 - 10173) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.38)
+ACTIVE GROUP 1/1 (7438 - 10206) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.38)
+ACTIVE GROUP 1/1 (7438 - 10239) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.47)
+ACTIVE GROUP 1/1 (7438 - 10273) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.56)
+ACTIVE GROUP 1/1 (7438 - 10306) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.34)
+ACTIVE GROUP 1/2 (7438 - 10339) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (91.84)
+ACTIVE GROUP 2/2 (10306 - 10339) ==============================================
+	Best Plate: AD3U6V (91.99)
+	Best Region: us-mo (87.00)
+ACTIVE GROUP 1/2 (7438 - 10373) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (91.62)
+ACTIVE GROUP 1/2 (7438 - 10440) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (91.69)
+ACTIVE GROUP 2/2 (10306 - 10440) ==============================================
+	Best Plate: AD3U6V (92.97)
+	Best Region: us-mo (91.00)
+ACTIVE GROUP 1/2 (7438 - 10473) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (91.72)
+ACTIVE GROUP 1/2 (7438 - 10506) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (91.77)
+ACTIVE GROUP 2/2 (10306 - 10506) ==============================================
+	Best Plate: AD3U6V (92.97)
+	Best Region: us-mo (92.75)
+ACTIVE GROUP 1/2 (7438 - 10540) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (91.82)
+ACTIVE GROUP 2/2 (10306 - 10540) ==============================================
+	Best Plate: AD3U6V (92.97)
+	Best Region: us-mo (91.80)
+ACTIVE GROUP 1/2 (7438 - 10573) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (91.86)
+ACTIVE GROUP 2/2 (10306 - 10573) ==============================================
+	Best Plate: AD3U6V (92.97)
+	Best Region: us-mo (91.50)
+ACTIVE GROUP 1/2 (7438 - 10606) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (91.93)
+ACTIVE GROUP 2/2 (10306 - 10606) ==============================================
+	Best Plate: AD3U6V (92.97)
+	Best Region: us-mo (90.86)
+ACTIVE GROUP 1/2 (7438 - 10640) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (91.93)
+ACTIVE GROUP 2/2 (10306 - 10640) ==============================================
+	Best Plate: AD3U6V (92.97)
+	Best Region: us-mo (91.62)
+ACTIVE GROUP 1/2 (7438 - 10673) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (91.99)
+ACTIVE GROUP 2/2 (10306 - 10673) ==============================================
+	Best Plate: AD3U6V (93.17)
+	Best Region: us-mo (90.89)
+ACTIVE GROUP 1/2 (7438 - 10706) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.07)
+ACTIVE GROUP 2/2 (10306 - 10706) ==============================================
+	Best Plate: AD3U6V (93.17)
+	Best Region: us-mo (91.60)
+ACTIVE GROUP 2/2 (10306 - 10740) ==============================================
+	Best Plate: AD3U6V (93.18)
+	Best Region: us-mo (92.09)
+ACTIVE GROUP 2/2 (10306 - 10773) ==============================================
+	Best Plate: AD3U6V (93.29)
+	Best Region: us-mo (92.17)
+ACTIVE GROUP 2/2 (10306 - 10806) ==============================================
+	Best Plate: AD3U6V (93.29)
+	Best Region: us-mo (92.69)
+ACTIVE GROUP 2/2 (10306 - 10873) ==============================================
+	Best Plate: AD3U6V (93.38)
+	Best Region: us-mo (93.14)
+ACTIVE GROUP 2/2 (10306 - 10906) ==============================================
+	Best Plate: AD3U6V (93.38)
+	Best Region: us-mo (92.87)
+ACTIVE GROUP 2/2 (10306 - 10940) ==============================================
+	Best Plate: AD3U6V (93.38)
+	Best Region: us-mo (90.62)
+ACTIVE GROUP 2/2 (10306 - 10973) ==============================================
+	Best Plate: AD3U6V (93.38)
+	Best Region: us-mo (90.62)
+ACTIVE GROUP 2/2 (10306 - 11007) ==============================================
+	Best Plate: AD3U6V (93.38)
+	Best Region: us-mo (90.29)
+ACTIVE GROUP 2/2 (10306 - 11040) ==============================================
+	Best Plate: AD3U6V (93.38)
+	Best Region: us-mo (90.56)
+ACTIVE GROUP 2/2 (10306 - 11073) ==============================================
+	Best Plate: AD3U6V (93.38)
+	Best Region: us-mo (90.95)
+ACTIVE GROUP 2/2 (10306 - 11107) ==============================================
+	Best Plate: AD3U6V (93.38)
+	Best Region: us-mo (91.35)
+ACTIVE GROUP 2/2 (10306 - 11173) ==============================================
+	Best Plate: AD3U6V (93.38)
+	Best Region: us-mo (91.38)
+ACTIVE GROUP 2/2 (10306 - 11207) ==============================================
+	Best Plate: AD3U6V (93.38)
+	Best Region: us-mo (91.59)
+ACTIVE GROUP 2/2 (10306 - 11240) ==============================================
+	Best Plate: AD3U6V (93.57)
+	Best Region: us-mo (91.87)
+ACTIVE GROUP 2/2 (10306 - 11273) ==============================================
+	Best Plate: AD3U6V (93.57)
+	Best Region: us-mo (92.12)
+ACTIVE GROUP 2/2 (10306 - 11307) ==============================================
+	Best Plate: AD3U6V (93.57)
+	Best Region: us-mo (92.04)
+ACTIVE GROUP 2/2 (10306 - 11340) ==============================================
+	Best Plate: AD3U6V (93.68)
+	Best Region: us-mo (92.15)
+ACTIVE GROUP 2/2 (10306 - 11373) ==============================================
+	Best Plate: AD3U6V (93.68)
+	Best Region: us-mo (92.26)
+ACTIVE GROUP 2/2 (10306 - 11407) ==============================================
+	Best Plate: AD3U6V (93.68)
+	Best Region: us-mo (91.96)
+ACTIVE GROUP 2/2 (10306 - 11440) ==============================================
+	Best Plate: AD3U6V (93.68)
+	Best Region: us-mo (92.21)
+ACTIVE GROUP 2/2 (10306 - 11474) ==============================================
+	Best Plate: AD3U6V (93.68)
+	Best Region: us-mo (91.90)
+ACTIVE GROUP 2/2 (10306 - 11507) ==============================================
+	Best Plate: AD3U6V (93.68)
+	Best Region: us-mo (92.10)
+ACTIVE GROUP 2/2 (10306 - 11540) ==============================================
+	Best Plate: AD3U6V (93.68)
+	Best Region: us-mo (92.12)
+ACTIVE GROUP 2/2 (10306 - 11574) ==============================================
+	Best Plate: AD3U6V (93.68)
+	Best Region: us-mo (92.24)
+ACTIVE GROUP 2/2 (10306 - 11607) ==============================================
+	Best Plate: AD3U6V (93.68)
+	Best Region: us-mo (92.44)
+ACTIVE GROUP 2/2 (10306 - 11640) ==============================================
+	Best Plate: AD3U6V (93.68)
+	Best Region: us-mo (92.29)
+ACTIVE GROUP 2/3 (10306 - 11674) ==============================================
+	Best Plate: AD3U6V (93.68)
+	Best Region: us-mo (92.47)
+ACTIVE GROUP 3/3 (11507 - 11674) ==============================================
+	Best Plate: DA0C7L (90.20)
+	Best Region: us-mo (94.50)
+ACTIVE GROUP 2/3 (10306 - 11707) ==============================================
+	Best Plate: AD3U6V (93.68)
+	Best Region: us-mo (92.46)
+ACTIVE GROUP 2/3 (10306 - 11740) ==============================================
+	Best Plate: AD3U6V (93.68)
+	Best Region: us-mo (92.53)
+ACTIVE GROUP 2/3 (10306 - 11774) ==============================================
+	Best Plate: AD3U6V (93.68)
+	Best Region: us-mo (91.72)
+ACTIVE GROUP 2/3 (10306 - 11807) ==============================================
+	Best Plate: AD3U6V (93.68)
+	Best Region: us-mo (91.72)
+ACTIVE GROUP 3/3 (11507 - 11807) ==============================================
+	Best Plate: DA0C7L (90.20)
+	Best Region: us-mo (95.67)
+ACTIVE GROUP 3/3 (11507 - 11840) ==============================================
+	Best Plate: DA0C7L (90.20)
+	Best Region: us-mo (96.50)
+ACTIVE GROUP 3/3 (11507 - 11907) ==============================================
+	Best Plate: DA0C7L (90.20)
+	Best Region: us-mo (96.60)
+ACTIVE GROUP 3/3 (11507 - 11940) ==============================================
+	Best Plate: DA0C7L (91.41)
+	Best Region: us-mo (94.50)
+ACTIVE GROUP 3/3 (11507 - 12007) ==============================================
+	Best Plate: DA0C7L (91.41)
+	Best Region: us-mo (89.86)
+ACTIVE GROUP 3/3 (11507 - 12041) ==============================================
+	Best Plate: DA0C7L (91.41)
+	Best Region: us-mo (90.88)
+ACTIVE GROUP 3/3 (11507 - 12074) ==============================================
+	Best Plate: DA0C7L (92.79)
+	Best Region: us-mo (91.78)
+ACTIVE GROUP 3/3 (11507 - 12107) ==============================================
+	Best Plate: DA0C7L (92.79)
+	Best Region: us-mo (92.50)
+ACTIVE GROUP 3/3 (11507 - 12141) ==============================================
+	Best Plate: DA0C7L (93.39)
+	Best Region: us-mo (93.09)
+ACTIVE GROUP 3/3 (11507 - 12207) ==============================================
+	Best Plate: DA0C7L (93.39)
+	Best Region: us-mo (93.58)
+ACTIVE GROUP 3/3 (11507 - 12241) ==============================================
+	Best Plate: DA0C7L (93.39)
+	Best Region: us-mo (94.00)
+ACTIVE GROUP 3/3 (11507 - 12274) ==============================================
+	Best Plate: DA0C7L (93.39)
+	Best Region: us-mo (94.29)
+ACTIVE GROUP 3/3 (11507 - 12307) ==============================================
+	Best Plate: DA0C7L (93.39)
+	Best Region: us-mo (94.60)
+ACTIVE GROUP 3/3 (11507 - 12341) ==============================================
+	Best Plate: DA0C7L (93.39)
+	Best Region: us-mo (94.88)
+ACTIVE GROUP 3/3 (11507 - 12374) ==============================================
+	Best Plate: DA0C7L (93.47)
+	Best Region: us-mo (95.12)
+ACTIVE GROUP 3/3 (11507 - 12407) ==============================================
+	Best Plate: DA0C7L (93.47)
+	Best Region: us-mo (95.28)
+ACTIVE GROUP 3/3 (11507 - 12441) ==============================================
+	Best Plate: DA0C7L (93.47)
+	Best Region: us-mo (95.47)
+ACTIVE GROUP 3/3 (11507 - 12474) ==============================================
+	Best Plate: DA0C7L (93.47)
+	Best Region: us-mo (95.65)
+ACTIVE GROUP 3/4 (11507 - 12508) ==============================================
+	Best Plate: DA0C7L (93.47)
+	Best Region: us-mo (95.81)
+ACTIVE GROUP 4/4 (12474 - 12508) ==============================================
+	Best Plate: SE6H3G (91.95)
+	Best Region: us-mo (91.50)
+ACTIVE GROUP 3/4 (11507 - 12541) ==============================================
+	Best Plate: DA0C7L (93.47)
+	Best Region: us-mo (95.68)
+ACTIVE GROUP 4/4 (12474 - 12541) ==============================================
+	Best Plate: SE6H3G (92.51)
+	Best Region: us-mo (94.00)
+ACTIVE GROUP 1/3 (7438 - 12574) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.21)
+ACTIVE GROUP 3/3 (11507 - 12574) ==============================================
+	Best Plate: DA0C7L (93.47)
+	Best Region: us-mo (95.83)
+ACTIVE GROUP 1/3 (7438 - 12608) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.29)
+ACTIVE GROUP 3/3 (11507 - 12608) ==============================================
+	Best Plate: DA0C7L (93.47)
+	Best Region: us-mo (95.96)
+ACTIVE GROUP 1/3 (7438 - 12641) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.29)
+ACTIVE GROUP 3/3 (11507 - 12641) ==============================================
+	Best Plate: DA0C7L (93.47)
+	Best Region: us-mo (96.08)
+ACTIVE GROUP 1/3 (7438 - 12674) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.35)
+ACTIVE GROUP 3/3 (11507 - 12674) ==============================================
+	Best Plate: DA0C7L (93.47)
+	Best Region: us-mo (95.35)
+ACTIVE GROUP 1/3 (7438 - 12708) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.41)
+ACTIVE GROUP 3/3 (11507 - 12708) ==============================================
+	Best Plate: DA0C7L (93.47)
+	Best Region: us-mo (95.41)
+ACTIVE GROUP 1/3 (7438 - 12741) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.47)
+ACTIVE GROUP 3/3 (11507 - 12741) ==============================================
+	Best Plate: DA0C7L (93.47)
+	Best Region: us-mo (95.54)
+ACTIVE GROUP 1/3 (7438 - 12774) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.54)
+ACTIVE GROUP 3/3 (11507 - 12774) ==============================================
+	Best Plate: DA0C7L (93.47)
+	Best Region: us-mo (94.76)
+ACTIVE GROUP 1/3 (7438 - 12808) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.61)
+ACTIVE GROUP 1/3 (7438 - 12841) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.68)
+ACTIVE GROUP 1/3 (7438 - 12874) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.74)
+ACTIVE GROUP 1/3 (7438 - 12908) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.80)
+ACTIVE GROUP 1/3 (7438 - 12941) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.86)
+ACTIVE GROUP 1/3 (7438 - 12974) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.92)
+ACTIVE GROUP 1/3 (7438 - 13008) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (92.98)
+ACTIVE GROUP 1/3 (7438 - 13041) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (93.04)
+ACTIVE GROUP 1/3 (7438 - 13075) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (93.10)
+ACTIVE GROUP 1/3 (7438 - 13108) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (93.15)
+ACTIVE GROUP 1/3 (7438 - 13141) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (93.15)
+ACTIVE GROUP 1/3 (7438 - 13175) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (93.21)
+ACTIVE GROUP 1/3 (7438 - 13208) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (93.26)
+ACTIVE GROUP 1/3 (7438 - 13241) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (93.32)
+ACTIVE GROUP 1/3 (7438 - 13275) ===============================================
+	Best Plate: AB3W4S (93.47)
+	Best Region: us-mo (93.32)
+ACTIVE GROUP 1/3 (7438 - 13308) ===============================================
+	Best Plate: SE6H3G (93.48)
+	Best Region: us-mo (93.36)
+ACTIVE GROUP 1/3 (7438 - 13341) ===============================================
+	Best Plate: SE6H3G (93.48)
+	Best Region: us-mo (93.41)
+ACTIVE GROUP 1/3 (7438 - 13375) ===============================================
+	Best Plate: SE6H3G (93.48)
+	Best Region: us-mo (93.46)
+ACTIVE GROUP 1/3 (7438 - 13408) ===============================================
+	Best Plate: SE6H3G (93.48)
+	Best Region: us-mo (93.51)
+ACTIVE GROUP 1/3 (7438 - 13441) ===============================================
+	Best Plate: SE6H3G (93.48)
+	Best Region: us-mo (93.56)
+ACTIVE GROUP 1/3 (7438 - 13475) ===============================================
+	Best Plate: SE6H3G (93.48)
+	Best Region: us-mo (93.59)
+ACTIVE GROUP 1/4 (7438 - 13508) ===============================================
+	Best Plate: SE6H3G (93.48)
+	Best Region: us-mo (93.63)
+ACTIVE GROUP 4/4 (13308 - 13508) ==============================================
+	Best Plate: FB9J2E (92.85)
+	Best Region: us-mo (99.00)
+ACTIVE GROUP 1/4 (7438 - 13541) ===============================================
+	Best Plate: SE6H3G (93.48)
+	Best Region: us-mo (93.68)
+ACTIVE GROUP 4/4 (13308 - 13541) ==============================================
+	Best Plate: FB9J2E (92.98)
+	Best Region: us-mo (99.00)
+ACTIVE GROUP 1/4 (7438 - 13575) ===============================================
+	Best Plate: SE6H3G (93.48)
+	Best Region: us-mo (93.73)
+ACTIVE GROUP 4/4 (13308 - 13575) ==============================================
+	Best Plate: FB9J2E (92.98)
+	Best Region: us-mo (98.67)
+ACTIVE GROUP 1/4 (7438 - 13608) ===============================================
+	Best Plate: SE6H3G (93.48)
+	Best Region: us-mo (93.77)
+ACTIVE GROUP 4/4 (13308 - 13608) ==============================================
+	Best Plate: FB9J2E (92.98)
+	Best Region: us-mo (98.75)
+ACTIVE GROUP 1/4 (7438 - 13642) ===============================================
+	Best Plate: SE6H3G (93.48)
+	Best Region: us-mo (93.71)
+ACTIVE GROUP 4/4 (13308 - 13642) ==============================================
+	Best Plate: FB9J2E (92.98)
+	Best Region: us-mo (98.80)
+ACTIVE GROUP 1/4 (7438 - 13675) ===============================================
+	Best Plate: SE6H3G (93.48)
+	Best Region: us-mo (93.76)
+ACTIVE GROUP 4/4 (13308 - 13675) ==============================================
+	Best Plate: FB9J2E (92.98)
+	Best Region: us-mo (98.50)
+ACTIVE GROUP 1/4 (7438 - 13708) ===============================================
+	Best Plate: SE6H3G (93.48)
+	Best Region: us-mo (93.80)
+ACTIVE GROUP 4/4 (13308 - 13708) ==============================================
+	Best Plate: FB9J2E (93.25)
+	Best Region: us-mo (98.57)
+ACTIVE GROUP 1/4 (7438 - 13742) ===============================================
+	Best Plate: SE6H3G (93.48)
+	Best Region: us-mo (93.84)
+ACTIVE GROUP 4/4 (13308 - 13742) ==============================================
+	Best Plate: FB9J2E (93.25)
+	Best Region: us-mo (96.12)
+ACTIVE GROUP 1/4 (7438 - 13775) ===============================================
+	Best Plate: SE6H3G (93.48)
+	Best Region: us-mo (93.89)
+ACTIVE GROUP 4/4 (13308 - 13775) ==============================================
+	Best Plate: FB9J2E (93.25)
+	Best Region: us-mo (96.44)
+ACTIVE GROUP 4/4 (13308 - 13808) ==============================================
+	Best Plate: FB9J2E (93.25)
+	Best Region: us-mo (96.20)
+COMPLETED GROUP (10306 - 11807) ///////////////////////////////////////////////
+	Best Plate: AD3U6V (93.68)
+	Best Region: us-mo (91.72)
+ACTIVE GROUP 3/3 (13308 - 13842) ==============================================
+	Best Plate: FB9J2E (93.25)
+	Best Region: us-mo (96.45)
+ACTIVE GROUP 3/3 (13308 - 13875) ==============================================
+	Best Plate: FB9J2E (93.25)
+	Best Region: us-mo (96.67)
+ACTIVE GROUP 3/3 (13308 - 13908) ==============================================
+	Best Plate: FB9J2E (93.25)
+	Best Region: us-mo (96.85)
+ACTIVE GROUP 3/3 (13308 - 13942) ==============================================
+	Best Plate: FB9J2E (93.25)
+	Best Region: us-mo (97.00)
+ACTIVE GROUP 3/3 (13308 - 13975) ==============================================
+	Best Plate: FB9J2E (93.25)
+	Best Region: us-mo (95.47)
+ACTIVE GROUP 3/3 (13308 - 14008) ==============================================
+	Best Plate: FB9J2E (93.25)
+	Best Region: us-mo (95.69)
+ACTIVE GROUP 3/3 (13308 - 14042) ==============================================
+	Best Plate: FB9J2E (93.36)
+	Best Region: us-mo (95.88)
+ACTIVE GROUP 3/3 (13308 - 14075) ==============================================
+	Best Plate: FB9J2E (93.36)
+	Best Region: us-mo (92.94)
+ACTIVE GROUP 3/3 (13308 - 14109) ==============================================
+	Best Plate: FB9J2E (93.44)
+	Best Region: us-mo (93.26)
+ACTIVE GROUP 3/3 (13308 - 14142) ==============================================
+	Best Plate: FB9J2E (93.44)
+	Best Region: us-mo (93.55)
+ACTIVE GROUP 3/3 (13308 - 14175) ==============================================
+	Best Plate: FB9J2E (93.44)
+	Best Region: us-mo (93.81)
+ACTIVE GROUP 3/3 (13308 - 14209) ==============================================
+	Best Plate: FB9J2E (93.44)
+	Best Region: us-mo (94.05)
+ACTIVE GROUP 3/3 (13308 - 14242) ==============================================
+	Best Plate: FB9J2E (93.44)
+	Best Region: us-mo (94.26)
+ACTIVE GROUP 3/3 (13308 - 14275) ==============================================
+	Best Plate: FB9J2E (93.44)
+	Best Region: us-mo (94.46)
+ACTIVE GROUP 3/3 (13308 - 14309) ==============================================
+	Best Plate: FB9J2E (93.44)
+	Best Region: us-mo (94.60)
+ACTIVE GROUP 3/3 (13308 - 14342) ==============================================
+	Best Plate: FB9J2E (93.44)
+	Best Region: us-mo (94.77)
+ACTIVE GROUP 3/3 (13308 - 14375) ==============================================
+	Best Plate: FB9J2E (93.44)
+	Best Region: us-mo (94.93)
+ACTIVE GROUP 3/3 (13308 - 14409) ==============================================
+	Best Plate: FB9J2E (93.44)
+	Best Region: us-mo (95.07)
+ACTIVE GROUP 3/3 (13308 - 14442) ==============================================
+	Best Plate: FB9J2E (93.44)
+	Best Region: us-mo (95.21)
+COMPLETED GROUP (11507 - 12774) ///////////////////////////////////////////////
+	Best Plate: DA0C7L (93.47)
+	Best Region: us-mo (94.76)
+COMPLETED GROUP (7438 - 13775) ////////////////////////////////////////////////
+	Best Plate: SE6H3G (93.48)
+	Best Region: us-mo (93.89)
+COMPLETED GROUP (13308 - 14442) ///////////////////////////////////////////////
+	Best Plate: FB9J2E (93.44)
+	Best Region: us-mo (95.21)
+ACTIVE GROUP 1/1 (22581 - 22647) ==============================================
+	Best Plate: UF5P6L (93.30)
+	Best Region: us-mo (90.00)
+ACTIVE GROUP 1/1 (22581 - 22681) ==============================================
+	Best Plate: UF5P6L (93.30)
+	Best Region: us-mo (94.50)
+ACTIVE GROUP 1/1 (22581 - 22714) ==============================================
+	Best Plate: UF5P6L (93.30)
+	Best Region: us-mo (95.33)
+ACTIVE GROUP 1/1 (22581 - 22914) ==============================================
+	Best Plate: UF5P6L (93.30)
+	Best Region: us-mo (86.50)
+ACTIVE GROUP 2/2 (24315 - 24382) ==============================================
+	Best Plate: FC1D8H (87.11)
+	Best Region: us-mo (99.00)
+ACTIVE GROUP 2/2 (24315 - 24415) ==============================================
+	Best Plate: FC1D8H (89.35)
+	Best Region: us-mo (99.00)
+ACTIVE GROUP 2/2 (24315 - 24448) ==============================================
+	Best Plate: FC1D8H (92.85)
+	Best Region: us-mo (99.00)
+ACTIVE GROUP 2/2 (24315 - 24482) ==============================================
+	Best Plate: FC1D8H (92.85)
+	Best Region: us-mo (99.00)
+ACTIVE GROUP 2/2 (24315 - 24515) ==============================================
+	Best Plate: FC1D8H (92.97)
+	Best Region: us-mo (99.00)
+ACTIVE GROUP 2/2 (24315 - 24549) ==============================================
+	Best Plate: FC1D8H (92.97)
+	Best Region: us-mo (99.00)
+ACTIVE GROUP 2/3 (24315 - 24582) ==============================================
+	Best Plate: FC1D8H (92.97)
+	Best Region: us-mo (99.00)
+ACTIVE GROUP 3/3 (24515 - 24582) ==============================================
+	Best Plate: AE9X2K (92.98)
+	Best Region: us-mo (66.00)
+ACTIVE GROUP 3/3 (24515 - 24615) ==============================================
+	Best Plate: AE9X2K (92.98)
+	Best Region: us-mo (74.67)
+ACTIVE GROUP 3/3 (24515 - 24649) ==============================================
+	Best Plate: AE9X2K (92.98)
+	Best Region: us-mo (80.00)
+ACTIVE GROUP 3/3 (24515 - 24682) ==============================================
+	Best Plate: AE9X2K (92.98)
+	Best Region: us-mo (80.00)
+ACTIVE GROUP 3/3 (24515 - 24715) ==============================================
+	Best Plate: AE9X2K (92.98)
+	Best Region: us-mo (83.80)
+ACTIVE GROUP 3/3 (24515 - 24749) ==============================================
+	Best Plate: AE9X2K (92.98)
+	Best Region: us-mo (84.17)
+ACTIVE GROUP 3/3 (24515 - 24782) ==============================================
+	Best Plate: AE9X2K (93.06)
+	Best Region: us-mo (85.14)
+ACTIVE GROUP 3/3 (24515 - 24815) ==============================================
+	Best Plate: AE9X2K (93.06)
+	Best Region: us-mo (86.88)
+ACTIVE GROUP 3/3 (24515 - 24849) ==============================================
+	Best Plate: AE9X2K (93.06)
+	Best Region: us-mo (88.22)
+ACTIVE GROUP 3/3 (24515 - 24882) ==============================================
+	Best Plate: AE9X2K (93.06)
+	Best Region: us-mo (89.30)
+ACTIVE GROUP 3/3 (24515 - 24915) ==============================================
+	Best Plate: AE9X2K (93.06)
+	Best Region: us-mo (90.18)
+COMPLETED GROUP (22581 - 22914) ///////////////////////////////////////////////
+	Best Plate: UF5P6L (93.30)
+	Best Region: us-mo (86.50)
+ACTIVE GROUP 2/2 (24515 - 24949) ==============================================
+	Best Plate: AE9X2K (93.06)
+	Best Region: us-mo (90.92)
+ACTIVE GROUP 2/2 (24515 - 24982) ==============================================
+	Best Plate: AE9X2K (93.06)
+	Best Region: us-mo (91.54)
+ACTIVE GROUP 2/2 (24515 - 25016) ==============================================
+	Best Plate: AE9X2K (93.06)
+	Best Region: us-mo (92.07)
+ACTIVE GROUP 2/2 (24515 - 25049) ==============================================
+	Best Plate: AE9X2K (93.06)
+	Best Region: us-mo (92.53)
+ACTIVE GROUP 2/2 (24515 - 25082) ==============================================
+	Best Plate: AE9X2K (93.06)
+	Best Region: us-mo (92.94)
+ACTIVE GROUP 2/2 (24515 - 25116) ==============================================
+	Best Plate: AE9X2K (93.06)
+	Best Region: us-mo (92.76)
+ACTIVE GROUP 2/2 (24515 - 25149) ==============================================
+	Best Plate: AE9X2K (93.06)
+	Best Region: us-mo (93.11)
+ACTIVE GROUP 2/2 (24515 - 25182) ==============================================
+	Best Plate: AE9X2K (93.06)
+	Best Region: us-mo (93.42)
+ACTIVE GROUP 2/2 (24515 - 25216) ==============================================
+	Best Plate: AE9X2K (93.06)
+	Best Region: us-mo (93.70)
+ACTIVE GROUP 2/2 (24515 - 25249) ==============================================
+	Best Plate: AE9X2K (93.06)
+	Best Region: us-mo (93.95)
+ACTIVE GROUP 2/2 (24515 - 25282) ==============================================
+	Best Plate: AE9X2K (93.06)
+	Best Region: us-mo (94.18)
+COMPLETED GROUP (24315 - 24582) ///////////////////////////////////////////////
+	Best Plate: FC1D8H (92.97)
+	Best Region: us-mo (99.00)
+ACTIVE GROUP 2/2 (26883 - 26983) ==============================================
+	Best Plate: AA3L4F (93.01)
+	Best Region: us-mo (89.50)
+ACTIVE GROUP 2/2 (26883 - 27050) ==============================================
+	Best Plate: AA3L4F (93.01)
+	Best Region: us-mo (92.67)
+ACTIVE GROUP 2/2 (26883 - 27083) ==============================================
+	Best Plate: AA3L4F (93.01)
+	Best Region: us-mo (94.25)
+ACTIVE GROUP 2/2 (26883 - 27117) ==============================================
+	Best Plate: AA3L4F (93.01)
+	Best Region: us-mo (95.20)
+ACTIVE GROUP 2/2 (26883 - 27150) ==============================================
+	Best Plate: AA3L4F (93.01)
+	Best Region: us-mo (95.83)
+ACTIVE GROUP 2/2 (26883 - 27184) ==============================================
+	Best Plate: AA3L4F (93.01)
+	Best Region: us-mo (96.00)
+COMPLETED GROUP (24515 - 25282) ///////////////////////////////////////////////
+	Best Plate: AE9X2K (93.06)
+	Best Region: us-mo (94.18)
+ACTIVE GROUP 2/2 (28484 - 28518) ==============================================
+	Best Plate: PB3G1B (92.81)
+	Best Region: us-mo (98.50)
+ACTIVE GROUP 2/2 (28484 - 28551) ==============================================
+	Best Plate: PB3G1B (92.94)
+	Best Region: us-mo (97.00)
+ACTIVE GROUP 2/2 (28484 - 28584) ==============================================
+	Best Plate: PB3G1B (92.94)
+	Best Region: us-mo (97.00)
+ACTIVE GROUP 2/2 (28484 - 28651) ==============================================
+	Best Plate: PB3G1B (92.94)
+	Best Region: us-mo (97.50)
+ACTIVE GROUP 2/2 (28484 - 28685) ==============================================
+	Best Plate: PB3G1B (92.94)
+	Best Region: us-mo (97.80)
+ACTIVE GROUP 2/2 (28484 - 28718) ==============================================
+	Best Plate: PB3G1B (92.94)
+	Best Region: us-mo (98.00)
+ACTIVE GROUP 2/2 (28484 - 28751) ==============================================
+	Best Plate: PB3G1B (92.94)
+	Best Region: us-mo (97.57)
+ACTIVE GROUP 2/2 (28484 - 28785) ==============================================
+	Best Plate: PB3G1B (93.06)
+	Best Region: us-mo (97.75)
+COMPLETED GROUP (26883 - 27184) ///////////////////////////////////////////////
+	Best Plate: AA3L4F (93.01)
+	Best Region: us-mo (96.00)
+COMPLETED GROUP (28484 - 28785) ///////////////////////////////////////////////
+	Best Plate: PB3G1B (93.06)
+	Best Region: us-mo (97.75)
+ACTIVE GROUP 1/1 (32887 - 32921) ==============================================
+	Best Plate: TX688 (89.89)
+	Best Region: us-oh (58.00)
+ACTIVE GROUP 1/1 (32887 - 32987) ==============================================
+	Best Plate: LTX688 (90.45)
+	Best Region: us-oh (58.00)
+ACTIVE GROUP 1/1 (32887 - 33121) ==============================================
+	Best Plate: TX688 (92.11)
+	Best Region: us-oh (51.67)
+ACTIVE GROUP 1/1 (32887 - 33187) ==============================================
+	Best Plate: TX688 (92.11)
+	Best Region: us-oh (51.67)
+ACTIVE GROUP 1/1 (32887 - 33221) ==============================================
+	Best Plate: TX688 (92.11)
+	Best Region: us-oh (45.50)
+ACTIVE GROUP 1/1 (32887 - 33254) ==============================================
+	Best Plate: TX688 (93.03)
+	Best Region: us-oh (45.50)
+ACTIVE GROUP 1/1 (32887 - 33287) ==============================================
+	Best Plate: TX688 (93.03)
+	Best Region: us-oh (45.60)
+ACTIVE GROUP 1/1 (32887 - 33321) ==============================================
+	Best Plate: TX688 (93.03)
+	Best Region: us-oh (42.83)
+ACTIVE GROUP 1/1 (32887 - 33388) ==============================================
+	Best Plate: TX688 (93.08)
+	Best Region: us-oh (42.83)
+ACTIVE GROUP 1/1 (32887 - 33421) ==============================================
+	Best Plate: TX688 (93.08)
+	Best Region: us-oh (42.83)
+ACTIVE GROUP 1/1 (32887 - 33454) ==============================================
+	Best Plate: TX688 (93.08)
+	Best Region: us-oh (42.83)
+ACTIVE GROUP 1/1 (32887 - 33488) ==============================================
+	Best Plate: TX688 (93.08)
+	Best Region: us-oh (39.86)
+ACTIVE GROUP 1/1 (32887 - 33554) ==============================================
+	Best Plate: TX688 (93.13)
+	Best Region: us-oh (39.86)
+ACTIVE GROUP 1/1 (32887 - 33588) ==============================================
+	Best Plate: TX688 (93.13)
+	Best Region: us-ia (55.00)
+ACTIVE GROUP 1/1 (32887 - 33621) ==============================================
+	Best Plate: TX688 (93.13)
+	Best Region: us-ia (51.43)
+ACTIVE GROUP 1/1 (32887 - 33654) ==============================================
+	Best Plate: TX688 (93.13)
+	Best Region: us-ia (51.38)
+ACTIVE GROUP 1/1 (32887 - 33688) ==============================================
+	Best Plate: TX688 (93.13)
+	Best Region: us-ia (51.22)
+ACTIVE GROUP 1/1 (32887 - 33721) ==============================================
+	Best Plate: TX688 (93.13)
+	Best Region: us-ia (51.22)
+ACTIVE GROUP 1/1 (32887 - 33754) ==============================================
+	Best Plate: TX688 (93.13)
+	Best Region: us-ia (51.22)
+ACTIVE GROUP 1/1 (32887 - 33921) ==============================================
+	Best Plate: TX688 (93.13)
+	Best Region: us-ia (51.22)
+ACTIVE GROUP 1/1 (32887 - 33955) ==============================================
+	Best Plate: TX688 (93.13)
+	Best Region: us-ia (50.30)
+ACTIVE GROUP 1/1 (32887 - 33988) ==============================================
+	Best Plate: TX688 (93.13)
+	Best Region: us-ia (50.55)
+COMPLETED GROUP (32887 - 33988) ///////////////////////////////////////////////
+	Best Plate: TX688 (93.13)
+	Best Region: us-ia (50.55)
+ACTIVE GROUP 1/1 (35989 - 36056) ==============================================
+	Best Plate: HF1H9 (91.45)
+	Best Region: us-mo (99.00)
+ACTIVE GROUP 1/1 (35989 - 36089) ==============================================
+	Best Plate: HF1H9 (91.45)
+	Best Region: us-mo (97.00)
+ACTIVE GROUP 1/1 (35989 - 36156) ==============================================
+	Best Plate: HF1H9 (91.45)
+	Best Region: us-mo (97.00)
