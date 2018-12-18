@@ -32,16 +32,17 @@ def print_batch_results(batch):
     if len(batch) != 0:
         print_frame_results(batch[0])
 
-def print_group(group, active=False):
+def print_groups(groups, active=False):
     """Format JSON output for completed plate group.
 
     :param group: Python list returned from AlprStream.pop_completed_groups()
     :return None:
     """
-    if len(group) > 0:
-        d = group[0]
+
+    total = len(groups)
+    for i, d in enumerate(groups):
         if active:
-            print('{:=<79s}'.format('ACTIVE GROUP ({} - {}) '.format(d['epoch_start'], d['epoch_end'])))
+            print('{:=<79s}'.format('ACTIVE GROUP {}/{} ({} - {}) '.format(i+1, total, d['epoch_start'], d['epoch_end'])))
         else:
             print('{:/<79s}'.format('COMPLETED GROUP ({} - {}) '.format(d['epoch_start'], d['epoch_end'])))
         print('\tBest Plate: {} ({:.2f})\n\tBest Region: {} ({:.2f})'.format(
@@ -60,5 +61,5 @@ while alpr_stream.video_file_active() or alpr_stream.get_queue_size() > 0:
     else:
         print_frame_results(alpr_stream.process_frame(alpr))
     if not args.completed:
-        print_group(alpr_stream.peek_active_groups(), active=True)
-    print_group(alpr_stream.pop_completed_groups())
+        print_groups(alpr_stream.peek_active_groups(), active=True)
+    print_groups(alpr_stream.pop_completed_groups())
