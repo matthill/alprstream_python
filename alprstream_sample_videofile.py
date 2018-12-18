@@ -6,7 +6,8 @@ from alprstream import AlprStream
 parser = ArgumentParser()
 parser.add_argument('--video', type=str, default=os.path.expanduser('~/Downloads/720p.mp4'))
 parser.add_argument('--batch', action='store_true', help='Instead of processing individual frames')
-parser.add_argument('--group', action='store_true', help='Only output completed groups')
+parser.add_argument('--group', action='store_true', help='Don\'t output individual frames')
+parser.add_argument('--completed', action='store_true', help='Output completed groups only')
 args = parser.parse_args()
 
 def print_frame_results(json):
@@ -58,5 +59,6 @@ while alpr_stream.video_file_active() or alpr_stream.get_queue_size() > 0:
         print_batch_results(alpr_stream.process_batch(alpr))
     else:
         print_frame_results(alpr_stream.process_frame(alpr))
-    print_group(alpr_stream.peek_active_groups(), active=True)
+    if not args.completed:
+        print_group(alpr_stream.peek_active_groups(), active=True)
     print_group(alpr_stream.pop_completed_groups())
