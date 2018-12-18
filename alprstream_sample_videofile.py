@@ -37,7 +37,7 @@ def print_groups(groups, active=False):
     :param group: Python list returned from AlprStream.pop_completed_groups()
     :return None:
     """
-    print len(groups)
+
     for d in groups:
         if active:
             print('{:=<79s}'.format('ACTIVE GROUP ({} - {}) '.format(d['epoch_start'], d['epoch_end'])))
