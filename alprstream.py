@@ -8,7 +8,7 @@ mutex = Lock()
 
 # We need to do things slightly differently for Python 2 vs. 3
 # ... because the way str/unicode have changed to bytes/str
-if platform.python_version_tuple()[0] == '2':
+if platform.python_version_tuple()[0] == "2":
     # Using Python 2
     bytes = str
     _PYTHON_3 = False
@@ -40,9 +40,9 @@ class AlprStreamRecognizedFrameC(ctypes.Structure):
                 ("results_str",         ctypes.c_char_p)]
 
 class AlprStreamRecognizedBatchC(ctypes.Structure):
-    _fields_ = [('results_size',  ctypes.c_int),
-                ('results_array', ctypes.c_void_p),
-                ('batch_results', ctypes.c_char_p)]
+    _fields_ = [("results_size",  ctypes.c_int),
+                ("results_array", ctypes.c_void_p),
+                ("batch_results", ctypes.c_char_p)]
 
 class AlprStream:
     def __init__(self, frame_queue_size, use_motion_detection=1):
@@ -265,12 +265,14 @@ class AlprStream:
         return self._set_encode_jpeg_func(self.alprstream_pointer, always_return_jpeg)
 
     def _convert_char_ptr_to_json(self, char_ptr):
-
         json_data = ctypes.cast(char_ptr, ctypes.c_char_p).value
         json_data = _convert_from_charp(json_data)
         response_obj = json.loads(json_data)
         self._free_response_string_func(ctypes.c_void_p(char_ptr))
         return response_obj
+
+    def _convert_bytes_to_json(self, bytes):
+        return json.loads(bytes.decode('utf-8'))
 
     def pop_completed_groups(self):
         """
@@ -291,7 +293,9 @@ class AlprStream:
         @return a full list of all currently active groups.
         :return:
         """
-        return self._peek_active_groups_func(self.alprstream_pointer)
+        bytes = self._peek_active_groups_func(self.alprstream_pointer)
+        results = self._convert_bytes_to_json(bytes)
+        return results
 
     def combine_grouping(self, other_stream):
         """
@@ -317,10 +321,8 @@ class AlprStream:
         self.set_uuid_format_func(self.alprstream_pointer, format)
 
     def process_frame(self, alpr_instance):
-
         struct_response = self._process_frame_func(self.alprstream_pointer, alpr_instance.alpr_pointer)
-        bytes = struct_response.contents.results_str
-        results = json.loads(bytes.decode('utf-8'))
+        results = self._convert_bytes_to_json(struct_response.contents.results_str)
         self._free_frame_response_func(struct_response)
         return results
 
@@ -335,8 +337,7 @@ class AlprStream:
         :return: An array of the results for all recognized frames that were processed
         """
         struct_response = self._process_batch_func(self.alprstream_pointer, alpr_instance.alpr_pointer)
-        bytes = struct_response.contents.batch_results
-        results = json.loads(bytes.decode('utf-8'))
+        results = self._convert_bytes_to_json(struct_response.contents.batch_results)
         self._free_batch_response_func(struct_response)
         return results
 

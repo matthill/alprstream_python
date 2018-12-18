@@ -16,14 +16,11 @@ def print_frame_results(json):
     :return None: Prints plate results + confidence to console
     """
     if len(json['results']) != 0 and not args.group:
-        print('Epoch time: {}\nProcessing Time (ms): {:.2f}'.format(
-            json['epoch_time'], json['processing_time_ms']
-        ))
+        print('{:-<79s}'.format('FRAME ({}) '.format(json['epoch_time'])))
         d = json['results'][0]
         print('\tPlate: {} ({:.2f})\n\tRegion: {} ({:.2f})'.format(
             d['plate'], d['confidence'], d['region'], d['region_confidence']
         ))
-        print('=' * 79)
 
 def print_batch_results(batch):
     """Wrapper function to print_frame_results for batches.
@@ -34,32 +31,32 @@ def print_batch_results(batch):
     if len(batch) != 0:
         print_frame_results(batch[0])
 
-def print_group(group):
+def print_group(group, active=False):
     """Format JSON output for completed plate group.
 
     :param group: Python list returned from AlprStream.pop_completed_groups()
     :return None:
     """
-    d = group[0]
-    print('GROUP ({} - {})'.format(d['epoch_start'], d['epoch_end']))
-    print('\tBest Plate: {} ({:.2f})\n\tBest Region: {} ({:.2f})'.format(
-        d['best_plate']['plate'], d['best_confidence'], d['best_region'], d['best_region_confidence']
-    ))
-    print('=' * 79)
+    if len(group) > 0:
+        d = group[0]
+        if active:
+            print('{:=<79s}'.format('ACTIVE GROUP ({} - {}) '.format(d['epoch_start'], d['epoch_end'])))
+        else:
+            print('{:/<79s}'.format('COMPLETED GROUP ({} - {}) '.format(d['epoch_start'], d['epoch_end'])))
+        print('\tBest Plate: {} ({:.2f})\n\tBest Region: {} ({:.2f})'.format(
+            d['best_plate']['plate'], d['best_confidence'], d['best_region'], d['best_region_confidence']
+        ))
 
 alpr_stream = AlprStream(10)
 alpr = Alpr('us', '/etc/openalpr/alprd.conf', '/usr/share/openalpr/runtime_data')
 alpr_stream.connect_video_file(args.video, 0)
 print('Pointer to stream instance: ', hex(alpr_stream.alprstream_pointer))
 print('Results will load below when plates are detected...\n')
-print('=' * 79)
 
 while alpr_stream.video_file_active() or alpr_stream.get_queue_size() > 0:
     if args.batch:
         print_batch_results(alpr_stream.process_batch(alpr))
     else:
         print_frame_results(alpr_stream.process_frame(alpr))
-    new = alpr_stream.pop_completed_groups()
-    if len(new) > 0:
-        print_group(new)
-
+    print_group(alpr_stream.peek_active_groups(), active=True)
+    print_group(alpr_stream.pop_completed_groups())
