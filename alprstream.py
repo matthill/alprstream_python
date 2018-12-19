@@ -131,6 +131,10 @@ class AlprStream:
         self._pop_completed_groups_func.restype = ctypes.c_void_p
         self._pop_completed_groups_func.argtypes = [ctypes.c_void_p]
 
+        self.pop_completed_groups_and_recognize_vehicle_func = self._alprstreampy_lib.alprstream_pop_completed_groups_and_recognize_vehicle
+        self.pop_completed_groups_and_recognize_vehicle_func.restype = ctypes.c_char_p
+        self.pop_completed_groups_and_recognize_vehicle_func.argtypes = [ctypes.c_void_p, ctypes.c_void_p]
+
         self._free_response_string_func = self._alprstreampy_lib.alprstream_free_response_string
         self._free_response_string_func.argtypes = [ctypes.c_void_p]
 
@@ -285,6 +289,9 @@ class AlprStream:
         json_result = self._convert_char_ptr_to_json(ptr)
         
         return json_result
+
+    def pop_completed_groups_and_recognize_vehicle(self, vehicleclassifier_instance):
+        return self.pop_completed_groups_and_recognize_vehicle_func(self.alprstream_pointer, vehicleclassifier_instance.vehicleclassifier_pointer)
 
     def peek_active_groups(self):
         """
