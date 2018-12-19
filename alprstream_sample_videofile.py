@@ -35,10 +35,10 @@ def print_batch_results(batch):
 def print_groups(groups, active=False, cache=None):
     """Format JSON output for completed plate group.
 
-    :param group: Python list returned from AlprStream.pop_completed_groups()
-    :param active: Boolean to print active groups
-    :param cache: A set of already printed active groups
-    :return cache: With any new active groups added
+    :param list groups: Returned from AlprStream.pop_completed_groups()
+    :param bool active: Print active groups
+    :param set cache: Already printed active groups
+    :return set cache: With any new active groups added
     """
 
     total = len(groups)
@@ -59,7 +59,7 @@ def print_groups(groups, active=False, cache=None):
     return cache
 
 alpr_stream = AlprStream(10)
-alpr = Alpr('us', '/etc/openalpr/alprd.conf', '/usr/share/openalpr/runtime_data')
+alpr = Alpr('us', '/etc/openalpr/openalpr.conf', '/usr/share/openalpr/runtime_data')
 alpr_stream.connect_video_file(args.video, 0)
 print('Pointer to stream instance: ', hex(alpr_stream.alprstream_pointer))
 print('Results will load below when plates are detected...\n')
