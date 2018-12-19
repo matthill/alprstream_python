@@ -1,89 +1,97 @@
-# -*- coding: utf-8 -*-
 import os
-import re
-import sys
-import ctypes
-import time
+from argparse import ArgumentParser
 from openalpr import Alpr
 from alprstream import AlprStream
+from vehicleclassifier import VehicleClassifier
 
+parser = ArgumentParser()
+parser.add_argument('--video', type=str, default=os.path.expanduser('~/Downloads/720p.mp4'))
+parser.add_argument('--batch', action='store_true', help='Instead of processing individual frames')
+parser.add_argument('--group', action='store_true', help='Don\'t output individual frames')
+parser.add_argument('--completed', action='store_true', help='Output completed groups only')
+args = parser.parse_args()
 
-def print_frame_results(rframes):
-    print rframes
-    for frame_index in range(rframes):
-        rf = rframes[frame_index]
-        for i in range(len(rf.results.plates)):
-            print("Frame ", rf.frame_number, " result: ", rf.results.plates[i].bestPlate.characters)
+def print_frame_results(json):
+    """Formats JSON output if a plate was detected.
 
+    :param json: Python dict returned from AlprStream.process_frame()
+    :return None: Prints plate results + confidence to console
+    """
+    if len(json['results']) != 0 and not args.group:
+        print('{:-<79s}'.format('FRAME ({}) '.format(json['epoch_time'])))
+        d = json['results'][0]
+        print('\tPlate: {} ({:.2f})\n\tRegion: {} ({:.2f})'.format(
+            d['plate'], d['confidence'], d['region'], d['region_confidence']
+        ))
 
-def print_group_results(groups):
-    for group_index in range(len(groups) - 1):
-        group = groups[group_index]
+def print_batch_results(batch):
+    """Wrapper function to print_frame_results for batches.
 
-        print("Group (", group.epoch_ms_time_start, " - ", group.epoch_ms_time_end, ") ", group.best_plate_number)
+    :param batch: Python list returned from AlprStream.process_batch()
+    :return None: Prints plate results + confidence to console
+    """
+    if len(batch) != 0:
+        print_frame_results(batch[0])
 
+def print_groups(groups, active=False, cache=None):
+    """Format JSON output for completed plate group.
 
-if __name__ == '__main__':
+    :param list groups: Returned from AlprStream.pop_completed_groups_and_recognize_vehicle()
+    :param bool active: Print active groups
+    :param set cache: Already printed active groups
+    :return set cache: With any new active groups added
+    """
 
-    print("Initializing")
-    STARTING_EPOCH_TIME_MS = 1500294710000
-    LICENSEPLATE_COUNTRY = "us"
-    LICENSE_KEY = ""
-    VIDEO_FILE = "/storage/projects/alpr/samples/testing/videos/mhillvid4.mp4"
+    def format_print(d, i=None, total=None):
+        """
+        Helper function for print_groups.
 
-    # Size of image buffer to maintain in stream queue -- This only matters if you are feeding
-    # images/video into the buffer faster than can be processed (i.e., a background thread)
-    # Setting self to the batch size since we're feeding in images synchronously, it's only needed to
-    # hold a single batch
+        :param dict d: JSON data for completed or active group.
+        :param int i: Group number counter (only for active groups).
+        :param int total: Number of active groups (only for active groups).
+        :return: None, prints output.
+        """
+        if i is not None:
+            header = 'ACTIVE GROUP {}/{} ({} - {}) '.format(i + 1, total, d['epoch_start'], d['epoch_end'])
+            print('{:=<79s}'.format(header))
+        else:
+            header = 'COMPLETED GROUP ({} - {}) '.format(d['epoch_start'], d['epoch_end'])
+            print('{:/<79s}'.format(header))
+        print('\tBest Plate: {} ({:.2f})\n\tBest Region: {} ({:.2f})'.format(
+            d['best_plate']['plate'],
+            d['best_confidence'],
+            d['best_region'],
+            d['best_region_confidence']))
+        if i is None:
+            print('\tBody Type: {}\n\tColor: {}\n\tMake/Model: {}'.format(
+                d['vehicle']['body_type'][0]['name'],
+                d['vehicle']['color'][0]['name'],
+                d['vehicle']['make_model'][0]['name']))
 
-    # Batch size and GPU ID set in openalpr.conf
-    # Video buffer frames controls the number of frames to buffer in memory.  Must be >= gpu batch size
-    VIDEO_BUFFER_SIZE = 15
+    total = len(groups)
+    for i, d in enumerate(groups):
+        if active:
+            new = (d['epoch_start'], d['epoch_end'], d['best_plate']['plate'], d['best_region'])
+            if new not in cache:
+                format_print(d, i, total)
+                cache.add(new)
+        else:
+            format_print(d)
+    return cache
 
-    # The stream will assume sequential frames.  If there is no motion from frame to frame, then
-    # processing can be skipped for some frames
-    USE_MOTION_DETECTION = True
+alpr_stream = AlprStream(10)
+alpr = Alpr('us', '/etc/openalpr/openalpr.conf', '/usr/share/openalpr/runtime_data')
+vehicle_classifier = VehicleClassifier('/etc/openalpr/openalpr.conf', '/usr/share/openalpr/runtime_data')
+alpr_stream.connect_video_file(args.video, 0)
+print('Pointer to stream instance: ', hex(alpr_stream.alprstream_pointer))
+print('Results will load below when plates are detected...\n')
 
-    alpr_stream = AlprStream(VIDEO_BUFFER_SIZE, USE_MOTION_DETECTION)
-    alpr = Alpr(LICENSEPLATE_COUNTRY, "", LICENSE_KEY)
-
-    if not alpr.is_loaded():
-        print("Error loading OpenALPR library.")
-        exit(1)
-
-    print("Initialization complete")
-
-    # It's important that the image dimensions are consistent within a batch and that you
-    # only drive OpenALPR with few various image sizes.  The memory for each image size is
-    # cached on the GPU for efficiency, using many different image sizes will degrade performance
-
-    alpr_stream.connect_video_file(VIDEO_FILE, STARTING_EPOCH_TIME_MS)
-
-    while alpr_stream.video_file_active() or alpr_stream.get_queue_size() > 0:
-        print("Queue size: ", alpr_stream.get_queue_size())
-
-        # If processing on the CPU there is no benefit to a batch size > 1.
-        BATCH_SIZE = 10
-
-        # Process a batch as fast as we can, batches won't necessarily be full
-
-        single_frame = alpr_stream.process_frame(alpr)
-
-        frame_results = alpr_stream.process_batch(alpr)
-        
-        #print_frame_results(frame_results)
-        #alpr_stream.free_batch_response(frame_results)
-
-        # After each batch processing, can check to see if any groups are ready
-        # "Groups" form based on their timestamp and plate numbers on each stream
-        # The stream object has configurable options for how long to wait before
-        # completing a plate group.  You may peek at the active list without popping.
-        print("After batching there are: ", alpr_stream.peek_active_groups(), " active groups")
-
-        group_results = alpr_stream.pop_completed_groups()
-        print_group_results(group_results)
-
-        # Sleep a little bit so we don't spin the CPU looping
-        time.sleep(1.0)
-
-    print("Done")
+cache = set()
+while alpr_stream.video_file_active() or alpr_stream.get_queue_size() > 0:
+    if args.batch:
+        print_batch_results(alpr_stream.process_batch(alpr))
+    else:
+        print_frame_results(alpr_stream.process_frame(alpr))
+    if not args.completed:
+        cache = print_groups(alpr_stream.peek_active_groups(), active=True, cache=cache)
+    cache = print_groups(alpr_stream.pop_completed_groups_and_recognize_vehicle(vehicle_classifier))
