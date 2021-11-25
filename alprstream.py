@@ -50,7 +50,7 @@ class AlprStream:
         :param frame_queue_size: The size of the video buffer to be filled by incoming video frames
         :param use_motion_detection: Whether or not to enable motion detection on this stream
         """
-
+        self.is_loaded = False
         # platform.system() calls popen which is not threadsafe on Python 2.x
         mutex.acquire()
         try:
@@ -67,8 +67,6 @@ class AlprStream:
             if _PYTHON_3:
                 nex.__cause__ = e
             raise nex
-
-        self.is_loaded = False
 
         self._initialize_func = self._alprstreampy_lib.alprstream_init
         self._initialize_func.restype = ctypes.c_void_p
